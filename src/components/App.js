@@ -2,6 +2,7 @@ import Profile from "./Profile";
 import Qualifications from "./Qualifications";
 import "../index.css";
 import Projects from "./Projects";
+import Social from "./Social";
 
 function App() {
   return (
@@ -10,9 +11,18 @@ function App() {
         <Profile />
         <Qualifications />
       </div>
+
       <div>
-      <Projects />
+        <hr />
+        <Projects />
+        <hr />
       </div>
+
+      {
+        <div>
+          <Social />
+        </div>
+      }
     </div>
   );
 }
