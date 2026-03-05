@@ -3,11 +3,13 @@ import Qualifications from "./Qualifications";
 import "../index.css";
 import Projects from "./Projects";
 import Social from "./Social";
+import Title from "./Title";
 
 function App() {
   return (
     <div>
-      <div className="row">
+      <Title />
+      <div className="my-row">
         <Profile />
         <Qualifications />
       </div>
